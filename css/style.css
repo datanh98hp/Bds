@@ -110,7 +110,7 @@ body {
 /* head-content */
 .head-content {
     
-    background-image: url('https://citihome.vn/pictures/background/bg1.jpg');
+    ?background-image: url('https://citihome.vn/pictures/background/bg1.jpg');
     background-size: cover;
     margin-top: 60px;
     text-align: center;
@@ -135,7 +135,14 @@ body {
     margin-left: 10px;
 }
 
-
+@media (max-width: 568px) { 
+    .menubar{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+}
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (min-width: 576px) { 
