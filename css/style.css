@@ -135,17 +135,10 @@ body {
     margin-left: 10px;
 }
 
-@media (max-width: 568px) { 
-    .menubar{
-        display: none;
-    }
-    .nav{
-        display: block;
-    }
-}
+
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     .menubar{
         display: none;
     }
@@ -162,7 +155,7 @@ body {
     }
         
 }
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
     .menubar{
         display: none;
     }
