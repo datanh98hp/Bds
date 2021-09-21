@@ -22,7 +22,7 @@
 <body>
     <div class="header"  >
             <div class="col-sm-10">
-                <div class="menubar">
+                <nav class="menubar-pc">
                     <li class="item-menubar">Trang chủ</li>
                     <li class="item-menubar">Mua bán đất</li>
                     <li class="dropdown item-menubar">
@@ -41,23 +41,52 @@
                         </div>
                     </li>
                     <li class="item-menubar">Yêu thích</li>
-                </div>
+                </nav>
+
+                <label class="nav" for="hint-nav-mb">               
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>    
+                </label>
+                <!-- <label for="hint-nav-mb">f</label> -->
+                <input name="nav-check" class="nav-mb-check" id="hint-nav-mb" type="checkbox">
+
+                <label class="overlay_nav" for="hint-nav-mb" ></label>
+
+                <nav class="menubar-mb">
+                    <li class="item-menubar-mb">Trang chủ</li>
+                    <li class="item-menubar-mb">Mua bán đất</li>
+                    <li class="dropdown item-menubar-mb">
+                        <span class="drop-text">Mua - thuê nhà</span>
+                        <div class="drop-content">
+                            <a class="item-menubar-mb">Mua </a>
+                            <a class="item-menubar-mb">Thuê </a>
+                        </div>
+                    </li>
+                    <li class="item-menubar-mb">Dự án</li>
+                    <li class="dropdown item-menubar-mb">
+                        <span class="drop-text">Tin tức</span>
+                        <div class="drop-content">
+                            <a class="item-menubar-mb">Mới nhất </a>
+                            <a class="item-menubar-mb">Nổi bật </a>
+                        </div>
+                    </li>
+                    <li class="item-menubar">Yêu thích</li>
+                    <div class="nav-mb-close">      
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                    </div>
+                </nav>
             </div>
-            <div class="nav">               
-                <svg aria-hidden="false" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>    
-            </div>
+            
             <div class="col-sm-1">
                 <div class="right-menubar">
                     <i class="item-right" >Login</i>
                     <i class="item-right" > | </i>
-                    <i class="item-right">Đăng kí</i>
-                    
-                </div>
-                
+                    <i class="item-right">Đăng kí</i>                 
+                </div> 
             </div>
-            <div class="nav">               
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>    
-            </div>
+            
+            
+           
+            
         </div>
         <div class="head-content opacity-40">
             <div class="col-md-12 filter-bar">
